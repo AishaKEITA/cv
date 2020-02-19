@@ -1,0 +1,87 @@
+
+body{
+    background-color:silver;
+    font-size: 20px;
+    color: gray;
+    margin:80px;
+    max-width: 100%;
+    border-width: 100px;
+    padding:20px;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.name{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+.profile{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.icon{
+    height: 1em;
+    width: 30px;
+    padding: 1px;
+    fill: currentColor;
+    
+}
+.personalprofile{
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-style: solid;
+    text-align: left;
+}
+.interest{
+    height: 1em;
+    opacity: 0.75;
+    font-size: 40px;
+    width: 500px;
+}
+.experience{
+    font-size: 40px;
+}
+.jobname{
+    color:white;
+    font-size: 20px;
+}
+.degreetitle{
+    font-size: 20px;
+    margin-right: 100px;
+}
+.education{
+    font-size: 40px;
+}
+.skills{
+   font-size: 40px; 
+   padding-top: 2px;
+}
+.skillname{
+    font-size: 50px; 
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.mypicture{
+    height: 100px;
+    width: 80px;
+    border-radius: 10px;
+}
+.degreetitle{
+    padding: 10px;
+}
+.degree{
+    color: white;
+}
+.socialmedia{
+    padding-bottom: 3px;
+}
+.hobbies{
+    height: 50px;
+    width: 50px;
+}
